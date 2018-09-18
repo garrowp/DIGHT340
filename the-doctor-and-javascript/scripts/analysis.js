@@ -25,7 +25,7 @@ console.group("Doctor Who Actors output sorted by length of tenure");
             return ((b.tenure_end-b.tenure_start) - (a.tenure_end - a.tenure_start));
         }).map((a) => {
             let zeroYearFix = (a.tenure_end === null) ? a.tenure_end = 0 : a.tenure_end - a.tenure_start;
-        console.log(`${a.first_name} ${a.last_name} has been in the role for ${zeroYearFix} year(s)`);
+            console.log(`${a.first_name} ${a.last_name} has been in the role for ${zeroYearFix} year(s)`);
     });
 console.groupEnd();
 
