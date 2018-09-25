@@ -39,6 +39,6 @@ const topRated = [
     { title: 'The Parting of Ways', actor: 'Christopher Eccleston' },
     { title: 'The Stolen Earth', actor: 'David Tennant' },
     { title: 'Human Nature', actor: 'David Tennant' },
-    { title: 'Listen', actor: 'Pater Capaldi' },
+    { title: 'Listen', actor: 'Peter Capaldi' },
     { title: 'Midnight', actor: 'David Tennant' },
 ];
