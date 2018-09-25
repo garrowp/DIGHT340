@@ -73,63 +73,86 @@
 //     console.log(`${totalYears} total years`);
 // console.groupEnd();
 
-console.group("Reduce the Top Rated Episodes array to a listing of how many times each doctor appeared in one of the episodes");
+// console.group("Reduce the Top Rated Episodes array to a listing of how many times each doctor appeared in one of the episodes");
+//
+//     let nameCount = topRated.reduce((doctorNames, episode) => {
+//
+//         let foundDoctor = doctorNames.find((doctorName) => doctorName.actor === episode.actor); // Returns true if the doctor is found in the new array
+//
+//         if(!foundDoctor) {
+//             let splitArray = episode.actor.split(", ");
+//             if(splitArray.length > 1) {
+//                 for(let i = 0; i < splitArray.length; i++) {
+//                     let splitFoundDoctor = doctorNames.find((doctorName) => doctorName.actor === splitArray[0]);
+//                     if(!splitFoundDoctor) {
+//
+//                         doctorNames.push({
+//                             actor: splitArray[i],
+//                             count: 0,
+//                         })
+//
+//                     }
+//
+//                     splitFoundDoctor = doctorNames.find(doctorName => doctorName.actor === splitArray[i])
+//                     let foundSplitDoctorIndex = doctorNames.indexOf(splitFoundDoctor);
+//                     doctorNames[foundSplitDoctorIndex].count++;
+//                 }
+//             } else {
+//                 doctorNames.push({
+//                     actor: episode.actor,
+//                     count: 0,
+//                 });
+//
+//                 foundDoctor = doctorNames.find(
+//                     (doctorName) => doctorName.actor === episode.actor //Actually finds the name of the doctor
+//                 );
+//                 const foundDoctorIndex = doctorNames.indexOf(foundDoctor); //Finds the index of the name of the doctor
+//                 doctorNames[foundDoctorIndex].count++; //increases the count for the doctor at the found index
+//             }
+//         } else {
+//             foundDoctor = doctorNames.find(
+//                 (doctorName) => doctorName.actor === episode.actor //Actually finds the name of the doctor
+//             );
+//             const foundDoctorIndex = doctorNames.indexOf(foundDoctor); //Finds the index of the name of the doctor
+//             doctorNames[foundDoctorIndex].count++; //increases the count for the doctor at the found index
+//         }
+//
+//
+//
+//         return doctorNames;
+//
+//
+//     }, []).sort((a,b) => b.count - a.count);
+//
+//     console.table(nameCount);
+// console.groupEnd();
 
-    let nameCount = topRated.reduce((doctorNames, episode) => {
+console.group("Professor's Answer");
+    const nameCount = topRated.reduce(
+        (doctors, episode) => {
+            episode.actor
+                .split(', ')
+                .map(
+                    (actor) => {
+                        const foundDoctor = doctors.find(doctor => doctor.actor === actor)
+                        let foundDoctorIndex = doctors.indexOf(foundDoctor);
 
-        let foundDoctor = doctorNames.find((doctorName) => doctorName.actor === episode.actor); // Returns true if the doctor is found in the new array
-
-        if(!foundDoctor) {
-            let splitArray = episode.actor.split(", ");
-            if(splitArray.length > 1) {
-                for(let i = 0; i < splitArray.length; i++) {
-                    let splitFoundDoctor = doctorNames.find((doctorName) => doctorName.actor === splitArray[0]);
-                    if(!splitFoundDoctor) {
-
-                        doctorNames.push({
-                            actor: splitArray[i],
-                            count: 0,
-                        })
-
+                        if(!foundDoctor) {
+                            doctors.push({
+                                actor: actor,
+                                count: 1,
+                            });
+                        } else {
+                            doctors[foundDoctorIndex].count++;
+                        }
                     }
-
-                    splitFoundDoctor = doctorNames.find(doctorName => doctorName.actor === splitArray[i])
-                    let foundSplitDoctorIndex = doctorNames.indexOf(splitFoundDoctor);
-                    doctorNames[foundSplitDoctorIndex].count++;
-                }
-            } else {
-                doctorNames.push({
-                    actor: episode.actor,
-                    count: 0,
-                });
-
-                foundDoctor = doctorNames.find(
-                    (doctorName) => doctorName.actor === episode.actor //Actually finds the name of the doctor
                 );
-                const foundDoctorIndex = doctorNames.indexOf(foundDoctor); //Finds the index of the name of the doctor
-                doctorNames[foundDoctorIndex].count++; //increases the count for the doctor at the found index
-            }
-        } else {
-            foundDoctor = doctorNames.find(
-                (doctorName) => doctorName.actor === episode.actor //Actually finds the name of the doctor
-            );
-            const foundDoctorIndex = doctorNames.indexOf(foundDoctor); //Finds the index of the name of the doctor
-            doctorNames[foundDoctorIndex].count++; //increases the count for the doctor at the found index
-        }
-
-
-
-        return doctorNames;
-
-
-    }, []).sort((a,b) => b.count - a.count);
+            return doctors;
+        }, []
+    ).sort((a, b) => b.count - a.count);
 
     console.table(nameCount);
 console.groupEnd();
-
-
-
-
 
 
 
