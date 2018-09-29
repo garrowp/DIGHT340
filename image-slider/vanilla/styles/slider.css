@@ -1,0 +1,64 @@
+:root { --translateValue: 0; }
+
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wrapper-slides {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform: translateX(var(--translateValue));
+  transition: transform ease-out .45s;
+}
+
+.slide {
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slide + .slide { margin-left: -4px; }
+
+.artanis { background-image: url("../images/artanis.jpg"); }
+.johanna { background-image: url("../images/johanna.jpg"); }
+.muradin { background-image: url("../images/muradin.jpg"); }
+
+[class^="arrow-"] {
+  position: absolute;
+  top: 50vh;
+  display: block;
+  border-style: solid;
+  border-color: #dad6ca;
+  border-width: 0 10px 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.arrow-backward {
+  left: 1.5%;
+  transform: rotate(135deg);
+}
+
+.arrow-forward {
+  right: 1.5%;
+  transform: rotate(-45deg);
+}
