@@ -40,6 +40,9 @@ main {
 .artanis { background-image: url("../images/artanis.jpg"); }
 .johanna { background-image: url("../images/johanna.jpg"); }
 .muradin { background-image: url("../images/muradin.jpg"); }
+.kersh { background-image: url("../images/kersh.jpg"); }
+.field { background-image: url("../images/field.jpg"); }
+.aerial { background-image: url("../images/aerial.jpg"); }
 
 [class^="arrow-"] {
   position: absolute;

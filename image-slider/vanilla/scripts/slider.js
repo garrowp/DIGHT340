@@ -61,6 +61,10 @@ document.addEventListener(
                 break;
             case "ArrowLeft": back();
                 break;
+            case "ArrowUp": forward();
+                break;
+            case "ArrowDown": back();
+                break;
             case "Space": forward();
                 break;
         }
