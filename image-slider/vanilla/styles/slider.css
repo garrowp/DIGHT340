@@ -32,7 +32,7 @@ main {
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
 }
 
 .slide + .slide { margin-left: -4px; }
@@ -40,9 +40,10 @@ main {
 .artanis { background-image: url("../images/artanis.jpg"); }
 .johanna { background-image: url("../images/johanna.jpg"); }
 .muradin { background-image: url("../images/muradin.jpg"); }
-.kersh { background-image: url("../images/kersh.jpg"); }
-.field { background-image: url("../images/field.jpg"); }
-.aerial { background-image: url("../images/aerial.jpg"); }
+.dog1 { background-image: url("../images/dog1.jpg"); }
+.dog2 { background-image: url("../images/dog2.jpg"); }
+.dog3 { background-image: url("../images/dog3.jpg"); }
+
 
 [class^="arrow-"] {
   position: absolute;

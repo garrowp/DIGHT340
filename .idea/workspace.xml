@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a44d105-7cd3-47be-b958-8bab6538507d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-slider/vanilla/images/aerial.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-slider/vanilla/images/field.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-slider/vanilla/images/kersh.jpg" afterDir="false" />
+    <list default="true" id="3a44d105-7cd3-47be-b958-8bab6538507d" name="Default Changelist" comment="Added other images and finished vanilla slider.">
+      <change afterPath="$PROJECT_DIR$/image-slider/react/application/components/ArrowBackward.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/react/application/components/ArrowForward.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/react/application/components/Slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/react/application/components/Slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/react/application/components/Slides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/react/application/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/vanilla/images/dog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/vanilla/images/dog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-slider/vanilla/images/dog3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-slider/react/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/react/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-slider/react/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/react/styles/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-slider/vanilla/images/aerial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-slider/vanilla/images/field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-slider/vanilla/images/kersh.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/image-slider/vanilla/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/vanilla/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image-slider/vanilla/scripts/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/vanilla/scripts/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image-slider/vanilla/styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/vanilla/styles/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,94 +35,67 @@
     <session id="-1439281320">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="html" value="15" />
-          <entry key="jpg" value="11" />
-          <entry key="js" value="15" />
+          <entry key="css" value="6" />
+          <entry key="html" value="17" />
+          <entry key="jpg" value="12" />
+          <entry key="js" value="22" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="15" />
-          <entry key="Image" value="11" />
-          <entry key="JavaScript" value="15" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="17" />
+          <entry key="Image" value="12" />
+          <entry key="JavaScript" value="22" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1115" />
-          <entry key="html" value="653" />
-          <entry key="js" value="8845" />
-          <entry key="txt" value="230" />
+          <entry key="css" value="1189" />
+          <entry key="html" value="792" />
+          <entry key="js" value="9240" />
+          <entry key="txt" value="286" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1115" />
-          <entry key="HTML" value="653" />
-          <entry key="JavaScript" value="8845" />
-          <entry key="PLAIN_TEXT" value="230" />
+          <entry key="CSS" value="1189" />
+          <entry key="HTML" value="792" />
+          <entry key="JavaScript" value="9240" />
+          <entry key="PLAIN_TEXT" value="286" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/vanilla/scripts/slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/vanilla/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image-slider/vanilla/styles/slider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,6 +109,7 @@
       <find>div class=&quot;project&quot;</find>
       <find>&lt;/div&gt;</find>
       <find>/div</find>
+      <find>data-image-index=</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -148,12 +132,22 @@
         <option value="$PROJECT_DIR$/examples/example-2/scripts/example.js" />
         <option value="$PROJECT_DIR$/the-doctor-and-javascript/scripts/data.js" />
         <option value="$PROJECT_DIR$/the-doctor-and-javascript/scripts/analysis.js" />
-        <option value="$PROJECT_DIR$/image-slider/vanilla/scripts/slider.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
         <option value="$PROJECT_DIR$/image-slider/vanilla/index.html" />
         <option value="$PROJECT_DIR$/image-slider/vanilla/styles/slider.css" />
+        <option value="$PROJECT_DIR$/image-slider/react/styles/base.css" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/components/BackArrow.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/components/ForwardArrow.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/components/ArrowForward.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/components/ArrowBackward.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/index.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/components/Slide.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/components/Slider.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/application/components/Slides.js" />
+        <option value="$PROJECT_DIR$/image-slider/react/index.html" />
+        <option value="$PROJECT_DIR$/image-slider/vanilla/scripts/slider.js" />
       </list>
     </option>
   </component>
@@ -169,7 +163,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -191,17 +185,6 @@
             <path>
               <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="inspectionProfiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="image-slider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -209,13 +192,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="image-slider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="vanilla" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="image-slider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vanilla" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -307,7 +283,9 @@
       <workItem from="1538020110133" duration="307000" />
       <workItem from="1538159411585" duration="7283000" />
       <workItem from="1538271228504" duration="1674000" />
-      <workItem from="1538355106017" duration="681000" />
+      <workItem from="1538355106017" duration="1412000" />
+      <workItem from="1538422471204" duration="191000" />
+      <workItem from="1538434850542" duration="5259000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1537302062308</created>
@@ -351,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538195157005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added other images and finished vanilla slider.">
+      <created>1538362563099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538362563099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39860000" />
+    <option name="totallyTimeSpent" value="46041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,14 +352,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10268562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13533439" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -382,9 +366,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871288" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.26930693" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.2686747" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4989429" visible="true" weight="0.27029702" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4989429" visible="true" weight="0.22178218" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -403,7 +387,8 @@
     <MESSAGE value="Added event listener activity" />
     <MESSAGE value="Ready for pass off" />
     <MESSAGE value="Added a homepage and vanilla slider." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a homepage and vanilla slider." />
+    <MESSAGE value="Added other images and finished vanilla slider." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added other images and finished vanilla slider." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VanillaJS/index.js" />
@@ -457,9 +442,6 @@
     <entry file="file://$PROJECT_DIR$/image-slider/react/images/muradin.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-slider/react/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/example-1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -511,30 +493,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-slider/vanilla/images/aerial.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-slider/vanilla/images/field.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/vanilla/images/aerial.jpg" />
+    <entry file="file://$PROJECT_DIR$/image-slider/vanilla/styles/slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="41" column="22" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image-slider/vanilla/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="405">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/ArrowForward.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/ArrowBackward.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/styles/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-slider/vanilla/scripts/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-slider/vanilla/styles/slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        <state relative-caret-position="360">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
     </entry>

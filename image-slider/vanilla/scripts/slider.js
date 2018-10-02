@@ -22,7 +22,7 @@ const back = () => {
     console.log(translateValue);
 
     slider.style.setProperty('--translateValue', `${translateValue}px`);
-}
+};
 
 const forward = () => {
     imageIndex++;
