@@ -1,7 +1,3 @@
-class Slide extends React.Component {
-    render() {
-        return(
-            <div className="slide muradin"></div>
-        );
-    }
-}
+const Slide = ({ image }) => {
+    return <div className={`slide ${image}`}/>;
+};

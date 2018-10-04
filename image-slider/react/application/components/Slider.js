@@ -2,9 +2,9 @@ class Slider extends React.Component {
     render() {
         return(
             <div className = "slider" >
-                <ArrowBackward/>
+                <Arrow direction="backward"/>
                 <Slides/>
-                <ArrowForward/>
+                <Arrow direction="forward"/>
             </div>
         );
     }
