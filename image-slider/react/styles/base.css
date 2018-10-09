@@ -35,7 +35,7 @@ main {
   /*background-position: top center;*/
 /*}*/
 
-.slide + .slide { margin-left: -4px; }
+/*.slide + .slide { margin-left: -4px; }*/
 
 /*.artanis { background-image: url("../images/artanis.jpg"); }*/
 /*.johanna { background-image: url("../images/johanna.jpg"); }*/

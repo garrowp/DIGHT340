@@ -1,4 +1,4 @@
-const Arrow = ({direction}) =>{
+const Arrow = ({direction, clickHandler}) =>{
 
     const base_styles = {
         position: "absolute",
@@ -32,7 +32,7 @@ const Arrow = ({direction}) =>{
     };
 
 
-    return <div className = {`arrow-${direction}`} style={styles}> </div>
+    return <div style={styles} onClick={clickHandler}> </div>
 };
 
 Arrow.propTypes = {

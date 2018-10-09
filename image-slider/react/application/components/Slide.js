@@ -7,7 +7,6 @@ const Slide = ({ image }) => {
         backGroundRepeat: 'no-repeat',
         backGroundPosition: 'center center',
         backgroundImage: `url("images/${image}.jpg")`,
-        fontSize: '0',
     };
 
     return <div className='slide' style={styles}/>;
