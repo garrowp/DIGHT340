@@ -7,9 +7,6 @@ const Slides = ({translateValue, images}) => {
         transition: "transform ease-out .45s",
     };
 
-    console.log(images);
-
-    // const slides = images.map((image, i) => <Slide key={i} image={image} />);
 
     return(
         <div style={styles}>
