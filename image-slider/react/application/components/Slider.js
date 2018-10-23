@@ -50,7 +50,7 @@ class Slider extends React.Component {
     startSlideshow = () =>{
         this.setState({
             slideShowToggle: 1,
-            timer: setInterval(this.goToNextSlide, 3000),
+            timer: setInterval(this.goToNextSlide, 2500),
         });
     };
 
@@ -81,6 +81,7 @@ class Slider extends React.Component {
     handleKeyPress = (e) => {
         switch(e.keyCode) {
             case 39: // right arrow
+                if(this.state.slideShowToggle === 1) this.stopSlideShow();
                 this.goToNextSlide();
                 break;
             case 32: // space bar
@@ -88,14 +89,23 @@ class Slider extends React.Component {
                 else if(this.state.slideShowToggle === 1) this.stopSlideShow();
                 break;
             case 37: // left arrow
+                if(this.state.slideShowToggle === 1) this.stopSlideShow();
                 this.goToPrevSlide();
                 break;
-            case 82:
+            case 82: // r key will randomize the slides
+                if(this.state.slideShowToggle === 1) this.stopSlideShow();
                 this.shufflePictures();
                 break;
             default:
                 break;
         }
+    };
+
+    translatePips = (index) => {
+        return this.setState({
+            currentIndex: index,
+            translateValue: -document.querySelector('.slide').clientWidth*index,
+        })
     };
 
     render() {
@@ -114,6 +124,12 @@ class Slider extends React.Component {
                  onKeyUp={this.handleKeyPress}
                  tabIndex= '0'
             >
+                <Pips
+                    images={this.state.images}
+                    currentIndex={this.state.currentIndex}
+                    translatePips={this.translatePips}
+                />
+
                 <Arrow direction="backward" clickHandler={this.goToPrevSlide}/>
 
                 <Slides

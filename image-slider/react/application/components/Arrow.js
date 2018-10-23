@@ -32,7 +32,7 @@ const Arrow = ({direction, clickHandler}) =>{
     };
 
 
-    return <div style={styles} onClick={clickHandler}> </div>
+    return <div style={styles} onClick={clickHandler}></div>
 };
 
 Arrow.propTypes = {

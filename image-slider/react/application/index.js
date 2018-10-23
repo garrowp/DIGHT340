@@ -1,9 +1,7 @@
 const rootElement = document.querySelector('#application');
 
 function Application() {
-    return (
-        <Slider/>
-    );
+    return <Slider/>
 }
 
 ReactDOM.render(<Application />, rootElement);
