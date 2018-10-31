@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a44d105-7cd3-47be-b958-8bab6538507d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image-slider/react/application/components/Pip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image-slider/react/application/components/Pips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomodoro-timer/application/components/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomodoro-timer/application/components/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomodoro-timer/application/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomodoro-timer/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-slider/react/application/components/Arrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/react/application/components/Arrow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-slider/react/application/components/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/react/application/components/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-slider/react/application/components/Slides.js" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/react/application/components/Slides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-slider/react/application/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/react/application/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-slider/react/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-slider/react/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,26 +22,27 @@
     <session id="-1439281320">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="7" />
-          <entry key="html" value="20" />
+          <entry key="html" value="22" />
           <entry key="jpg" value="13" />
-          <entry key="js" value="36" />
+          <entry key="js" value="40" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -51,9 +50,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="20" />
+          <entry key="HTML" value="22" />
           <entry key="Image" value="13" />
-          <entry key="JavaScript" value="36" />
+          <entry key="JavaScript" value="40" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -62,8 +61,8 @@
         <counts>
           <entry key="css" value="1190" />
           <entry key="html" value="947" />
-          <entry key="js" value="15848" />
-          <entry key="txt" value="552" />
+          <entry key="js" value="17139" />
+          <entry key="txt" value="592" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -71,8 +70,8 @@
         <counts>
           <entry key="CSS" value="1190" />
           <entry key="HTML" value="947" />
-          <entry key="JavaScript" value="15848" />
-          <entry key="PLAIN_TEXT" value="552" />
+          <entry key="JavaScript" value="17139" />
+          <entry key="PLAIN_TEXT" value="592" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -81,64 +80,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/react/application/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/react/index.html">
+        <entry file="file://$PROJECT_DIR$/pomodoro-timer/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
+              <caret selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slider.js">
+        <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="116" column="31" lean-forward="true" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+            <state>
+              <caret selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slides.js">
+        <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slide.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Pips.js">
+        <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Timer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="6" column="9" lean-forward="true" selection-end-line="64" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Pip.js">
+        <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Button.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,6 +197,8 @@
         <option value="$PROJECT_DIR$/image-slider/react/application/components/Slider.js" />
         <option value="$PROJECT_DIR$/image-slider/react/application/components/Pip.js" />
         <option value="$PROJECT_DIR$/image-slider/react/application/components/Pips.js" />
+        <option value="$PROJECT_DIR$/pomodoro-timer/application/components/Timer.js" />
+        <option value="$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js" />
       </list>
     </option>
   </component>
@@ -230,8 +215,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="720" />
+    <option name="y" value="23" />
+    <option name="width" value="720" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -241,6 +228,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pomodoro-timer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pomodoro-timer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pomodoro-timer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,43 +268,6 @@
               <item name="DIGHT340" type="b2602c69:ProjectViewProjectNode" />
               <item name="DIGHT340" type="462c0819:PsiDirectoryNode" />
               <item name="the-doctor-and-javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="image-slider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="image-slider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="react" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="image-slider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="react" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="image-slider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="react" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -306,11 +285,13 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/image-slider/react/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/image-slider/vanilla/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/image-slider/react/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,7 +369,11 @@
       <workItem from="1540228020533" duration="3547000" />
       <workItem from="1540234333739" duration="2001000" />
       <workItem from="1540254038404" duration="606000" />
-      <workItem from="1540254843212" duration="1612000" />
+      <workItem from="1540254843212" duration="1947000" />
+      <workItem from="1540344319011" duration="252000" />
+      <workItem from="1540438204060" duration="780000" />
+      <workItem from="1540856200669" duration="3613000" />
+      <workItem from="1541028843527" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1537302062308</created>
@@ -474,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539218135861</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added the image pips at the bottom.">
+      <created>1540263779498</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1540263779499</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82696000" />
+    <option name="totallyTimeSpent" value="87984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +485,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18675123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18604651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,9 +497,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871288" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.2686747" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.26842105" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4989429" visible="true" weight="0.18072289" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="11" sideWeight="0.4989429" visible="true" weight="0.18072289" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -532,7 +524,8 @@
     <MESSAGE value="updated styles for mick" />
     <MESSAGE value="Both arrows working - React" />
     <MESSAGE value="'R' button will randomize the images&#10;images are randomized on reload&#10;spacebar will start and stop slideshow" />
-    <option name="LAST_COMMIT_MESSAGE" value="'R' button will randomize the images&#10;images are randomized on reload&#10;spacebar will start and stop slideshow" />
+    <MESSAGE value="Added the image pips at the bottom." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the image pips at the bottom." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VanillaJS/index.js" />
@@ -545,13 +538,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/webServers.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -675,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-slider/react/application/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-slider/react/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -689,38 +675,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slides.js">
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="116" column="31" lean-forward="true" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+        <state relative-caret-position="1972">
+          <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Slide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Pip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Pips.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="68">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-slider/react/application/components/Pip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro-timer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="true" selection-end-line="64" selection-end-column="2" />
         </state>
       </provider>
     </entry>
