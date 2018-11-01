@@ -16,6 +16,15 @@ class Timer extends React.Component{
         this.stopTimer();
     }
 
+    componentDidUpdate(prevState) {
+        if(this.props.time !== prevState.time) {
+            this.setState({
+                time: this.props.time,
+            });
+            this.resetTimer();
+        }
+    }
+
     formatSeconds = (seconds) => {
           let formattedMinutes = "0" + Math.floor(seconds / 60);
           let formattedSeconds = "0" + (seconds - formattedMinutes*60);
@@ -30,7 +39,6 @@ class Timer extends React.Component{
                 formattedTime: this.formatSeconds(prevState.time-1),
             }));
         } else {
-            alert("You suck idiot");
             this.stopTimer();
         }
     };
