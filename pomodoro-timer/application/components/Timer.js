@@ -36,10 +36,12 @@ class Timer extends React.Component{
         if(this.state.time !== 0){
             this.setState((prevState) => ({
                 time: prevState.time-1,
-                formattedTime: this.formatSeconds(prevState.time-1),
+                formattedTime: this.formatSeconds(this.state.time),
             }));
         } else {
             this.stopTimer();
+            this.props.switchTimer();
+            this.startTimer();
         }
     };
 
@@ -62,10 +64,9 @@ class Timer extends React.Component{
         return (
             <React.Fragment>
                 <div className="time">{this.formatSeconds(this.state.time)}</div>
-
-                <button className="btnStart" onClick={this.startTimer} >Start</button>
-                <button className="btnStop" onClick={this.stopTimer}>Stop</button>
-                <button className="btnReset" onClick={this.resetTimer}>Reset</button>
+                <Button text="Start" className="btnStart" clickHandler={this.startTimer} color='green'/>
+                <Button text="Stop" className="btnStop" clickHandler={this.stopTimer} color='red'/>
+                <Button text="Reset" className="btnReset" clickHandler={this.resetTimer} color='blue'/>
             </React.Fragment>
 
         );
