@@ -1,7 +1,7 @@
-const Button = ({text, clickHandler, color, workActive}) => {
+const Button = ({text, clickHandler, workActive}) => {
     const styles = {
         fontSize: '20px',
-        border: `2px solid ${color}`,
+        border: `2px solid black`,
         borderRadius: '7px',
         textAlign: 'center',
         display: 'inline-block',

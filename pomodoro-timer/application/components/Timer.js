@@ -60,13 +60,20 @@ class Timer extends React.Component{
         clearInterval(this.interval);
     };
 
+
+
     render() {
+
+        let biggerText = {
+            fontSize: '50px',
+        };
+
         return (
             <React.Fragment>
-                <div className="time">{this.formatSeconds(this.state.time)}</div>
-                <Button text="Start" className="btnStart" clickHandler={this.startTimer} color='green'/>
-                <Button text="Stop" className="btnStop" clickHandler={this.stopTimer} color='red'/>
-                <Button text="Reset" className="btnReset" clickHandler={this.resetTimer} color='blue'/>
+                <div style={biggerText} className="time">{this.formatSeconds(this.state.time)}</div>
+                <Button text="Start" className="btnStart" clickHandler={this.startTimer} />
+                <Button text="Stop" className="btnStop" clickHandler={this.stopTimer}/>
+                <Button text="Reset" className="btnReset" clickHandler={this.resetTimer}/>
             </React.Fragment>
 
         );

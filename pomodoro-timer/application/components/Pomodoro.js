@@ -5,7 +5,7 @@ class Pomodoro extends React.Component {
 
         this.state = {
             work: true,
-            time: 7,
+            time: 10,
             pomodoroCount: 0,
             workFinished: 0,
             restFinished: 0,
@@ -14,7 +14,7 @@ class Pomodoro extends React.Component {
     workOn = () => {
         this.setState({
             work: true,
-            time: 7,
+            time: 10,
 
         })
     };
@@ -70,13 +70,23 @@ class Pomodoro extends React.Component {
             backgroundColor: 'none',
         };
 
+        let biggerText = {
+            fontSize: '50px',
+            margin: '0',
+        };
+
         return (
             <div style={styles}>
-                <h1>Pomodoro Timer</h1>
+                <h1 style={biggerText}>Pomodoro Timer</h1>
+
+                <br/>
+
                 <div>
-                    <Button style={workStyles} text='Work' className='btnWork' clickHandler={this.workOn} color='black' workActive={this.state.work}/>
-                    <Button style={restStyles} text='Rest' className='btnRest' clickHandler={this.workOff} color='black' workActive={!this.state.work}/>
+                    <Button text='Work' className='btnWork' clickHandler={this.workOn} color='black' workActive={this.state.work}/>
+                    <Button text='Rest' className='btnRest' clickHandler={this.workOff} color='black' workActive={!this.state.work}/>
                 </div>
+
+                <br/>
 
                 <div>
                     {this.state.work ? (
@@ -86,9 +96,10 @@ class Pomodoro extends React.Component {
                     )}
                 </div>
 
+                <br/>
 
                 <p>Total Pomodoros</p>
-                {this.state.pomodoroCount}
+                <h1 style={biggerText}>{this.state.pomodoroCount}</h1>
 
             </div>
         );
