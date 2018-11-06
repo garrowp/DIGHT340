@@ -4,6 +4,7 @@ class Timer extends React.Component{
         this.state = {
             time: props.time,
             formattedTime: "",
+            timerStatus: '',
         }
     }
 
@@ -14,6 +15,9 @@ class Timer extends React.Component{
 
     componentWillUnmount() {
         this.stopTimer();
+        this.setState({
+            timerStatus: 'stop',
+        })
     }
 
     componentDidUpdate(prevState) {
@@ -47,10 +51,16 @@ class Timer extends React.Component{
 
     startTimer = () => {
         this.interval = setInterval(this.runTimer,1000);
+        this.setState({
+            timerStatus: 'start',
+        })
     };
 
     stopTimer = () => {
         clearInterval(this.interval);
+        this.setState({
+            timerStatus: 'stop',
+        })
     };
 
     resetTimer = () => {
@@ -58,6 +68,9 @@ class Timer extends React.Component{
             time:this.props.time,
         });
         clearInterval(this.interval);
+        this.setState({
+            timerStatus: 'reset',
+        })
     };
 
 
@@ -71,9 +84,9 @@ class Timer extends React.Component{
         return (
             <React.Fragment>
                 <div style={biggerText} className="time">{this.formatSeconds(this.state.time)}</div>
-                <Button text="Start" className="btnStart" clickHandler={this.startTimer} />
-                <Button text="Stop" className="btnStop" clickHandler={this.stopTimer}/>
-                <Button text="Reset" className="btnReset" clickHandler={this.resetTimer}/>
+                <Button text="Start" className="btnStart" clickHandler={this.startTimer} timerStatus={this.state.timerStatus} />
+                <Button text="Stop" className="btnStop" clickHandler={this.stopTimer} timerStatus={this.state.timerStatus}/>
+                <Button text="Reset" className="btnReset" clickHandler={this.resetTimer} timerStatus={this.state.timerStatus}/>
             </React.Fragment>
 
         );

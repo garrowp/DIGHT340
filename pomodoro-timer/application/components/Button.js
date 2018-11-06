@@ -1,4 +1,4 @@
-const Button = ({text, clickHandler, workActive}) => {
+const Button = ({text, clickHandler, workActive, timerStatus}) => {
     const styles = {
         fontSize: '20px',
         border: `2px solid black`,
@@ -18,14 +18,23 @@ const Button = ({text, clickHandler, workActive}) => {
 
     if(text === 'Start') {
         styles.backgroundColor = 'green';
-    }
-
-    if(text === 'Stop') {
+    } else if(text === 'Stop') {
         styles.backgroundColor = 'red';
+    } else if(text === 'Reset') {
+        styles.backgroundColor = 'blue';
     }
 
-    if(text === 'Reset') {
-        styles.backgroundColor = 'blue';
+    if(timerStatus === 'start' && text === 'Start') {
+        styles.backgroundColor = 'darkgreen';
+        styles.color = 'darkseagreen';
+    } else if(timerStatus === 'stop' && text === 'Stop') {
+        styles.backgroundColor = 'darkred';
+        styles.color = 'darkseagreen';
+
+    } else if(timerStatus === 'reset' && text === 'Reset') {
+        styles.backgroundColor = 'darkblue';
+        styles.color = 'darkseagreen';
+
     }
 
     return (
