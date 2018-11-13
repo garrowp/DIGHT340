@@ -11,8 +11,7 @@ class Pomodoro extends React.Component {
             pomodoroCount: 0,
             workFinished: 0,
             restFinished: 0,
-            sayings: ['pomodoros 4 life', 'way to get that tomato', 'congratulations on that pomodoro', 'zippidee doo dah!', 'wow lo hiciste', 'tener un hermoso tomate']
-
+            sayings: ['lets get this tomato', 'congratulations', 'zippidee doo dah!', 'and another one', '¯\\\_(ツ)_/¯']
         }
     }
 
@@ -116,7 +115,7 @@ class Pomodoro extends React.Component {
                     </div>
                 </div>
 
-                <div id='toast'>{this.state.sayings[Math.floor(Math.random()*Math.floor(3))]}</div>
+                <div id='toast'>{this.state.sayings[Math.floor(Math.random()*Math.floor(this.state.sayings.length))]}</div>
 
             </div>
         );

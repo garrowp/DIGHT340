@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a44d105-7cd3-47be-b958-8bab6538507d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pomodoro-timer/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomodoro-timer/application/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro-timer/application/components/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomodoro-timer/application/components/Timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro-timer/application/components/Timer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomodoro-timer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro-timer/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,27 +18,27 @@
     <session id="-1439281320">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="49" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="10" />
           <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="9" />
-          <entry key="html" value="30" />
+          <entry key="html" value="31" />
           <entry key="jpg" value="13" />
-          <entry key="js" value="60" />
+          <entry key="js" value="61" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -51,9 +46,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
-          <entry key="HTML" value="30" />
+          <entry key="HTML" value="31" />
           <entry key="Image" value="13" />
-          <entry key="JavaScript" value="60" />
+          <entry key="JavaScript" value="61" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -61,18 +56,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1479" />
-          <entry key="html" value="1189" />
-          <entry key="js" value="22378" />
-          <entry key="txt" value="765" />
+          <entry key="html" value="1274" />
+          <entry key="js" value="22446" />
+          <entry key="txt" value="840" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1479" />
-          <entry key="HTML" value="1189" />
-          <entry key="JavaScript" value="22378" />
-          <entry key="PLAIN_TEXT" value="765" />
+          <entry key="HTML" value="1274" />
+          <entry key="JavaScript" value="22446" />
+          <entry key="PLAIN_TEXT" value="840" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -92,20 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pomodoro-timer/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="13" column="119" selection-start-line="13" selection-start-column="119" selection-end-line="13" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -115,8 +110,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -191,9 +187,11 @@
         <option value="$PROJECT_DIR$/pomodoro-timer/application/components/Button.js" />
         <option value="$PROJECT_DIR$/pomodoro-timer/application/components/toast.js" />
         <option value="$PROJECT_DIR$/pomodoro-timer/application/index.css" />
-        <option value="$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js" />
         <option value="$PROJECT_DIR$/pomodoro-timer/index.html" />
         <option value="$PROJECT_DIR$/pomodoro-timer/index.css" />
+        <option value="$PROJECT_DIR$/instafeed/instafeed.min.js" />
+        <option value="$PROJECT_DIR$/instafeed/index.html" />
+        <option value="$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js" />
       </list>
     </option>
   </component>
@@ -210,8 +208,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -239,6 +238,13 @@
               <item name="pomodoro-timer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="DIGHT340" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pomodoro-timer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="application" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,6 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -368,7 +375,11 @@
       <workItem from="1541188529980" duration="5532000" />
       <workItem from="1541372909274" duration="974000" />
       <workItem from="1541517970682" duration="1262000" />
-      <workItem from="1541519544201" duration="957000" />
+      <workItem from="1541519544201" duration="1034000" />
+      <workItem from="1541520801163" duration="613000" />
+      <workItem from="1541524263914" duration="5000" />
+      <workItem from="1542003718485" duration="499000" />
+      <workItem from="1542069073581" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1537302062308</created>
@@ -489,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541191379149</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added a toast that displays every pomodoro with a random message.">
+      <created>1541520651866</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1541520651866</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108215000" />
+    <option name="totallyTimeSpent" value="110726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,7 +526,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13812543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.136716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -522,7 +540,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986835" weight="0.21980198" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013165" side_tool="true" weight="0.21980198" />
-      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4989429" visible="true" weight="0.17951807" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.4989429" visible="true" weight="0.17831326" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -552,7 +570,8 @@
     <MESSAGE value="Switches between work and rest timer" />
     <MESSAGE value="Finished the functionality and styling of Pomodoro Timer" />
     <MESSAGE value="Finished final changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished final changes." />
+    <MESSAGE value="Added a toast that displays every pomodoro with a random message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a toast that displays every pomodoro with a random message." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VanillaJS/index.js" />
@@ -565,12 +584,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/webServers.xml">
@@ -766,13 +779,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/toast.js" />
-    <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/instafeed/instafeed.min.js" />
+    <entry file="file://$PROJECT_DIR$/instafeed/index.html" />
     <entry file="file://$PROJECT_DIR$/pomodoro-timer/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -785,8 +793,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pomodoro-timer/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro-timer/application/components/Pomodoro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="119" selection-start-line="13" selection-start-column="119" selection-end-line="13" selection-end-column="119" />
         </state>
       </provider>
     </entry>
