@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import Results from './Components/Results';
+import SearchForm from './Components/SearchForm';
+
 
 class App extends Component {
 
@@ -61,9 +63,10 @@ class App extends Component {
     return (
       <Fragment>
 
-          <span>
-              <input id='search' placeholder='Search for Gifs...' onKeyUp={this.handleSearch}/>
-          </span>
+          {/*<span>*/}
+              {/*<input id='search' placeholder='Search for Gifs...' onKeyUp={this.handleSearch}/>*/}
+          {/*</span>*/}
+          <SearchForm performSearch={this.performSearch}/>
           {
               (this.state.loading)
               ? <p className="loading">&hellip;loading&hellip;</p> : <Results data={this.state.gifs}/>
