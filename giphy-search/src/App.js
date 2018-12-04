@@ -19,12 +19,11 @@ class App extends Component {
 
   componentDidMount() {
          this.getTrending();
-         // this.performSearch();
-    };
+  };
 
   getTrending = async () => {
       try{
-          const response = await axios.get('https://api.giphy.com/v1/gifs/trending?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&limit=25')
+          const response = await axios.get('https://api.giphy.com/v1/gifs/trending?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&limit=25');
           const { data } = await response.data;
 
           this.setState({
@@ -37,12 +36,13 @@ class App extends Component {
 
   };
 
-  performSearch = async (query = 'retriever') => {
+  performSearch = async (query = 'retriever', limit = 25) => {
 
       try {
-          const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&q=${query}&limit=25`);
+          const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&q=${query}&limit=${limit}`);
           const { data } = await response.data;
 
+          console.log(response.data);
           this.setState({
               gifs: data,
               loading: false,
@@ -62,11 +62,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-
-          {/*<span>*/}
-              {/*<input id='search' placeholder='Search for Gifs...' onKeyUp={this.handleSearch}/>*/}
-          {/*</span>*/}
-          <SearchForm performSearch={this.performSearch}/>
+          <SearchForm performSearch={this.performSearch} getTrending={this.getTrending}/>
           {
               (this.state.loading)
               ? <p className="loading">&hellip;loading&hellip;</p> : <Results data={this.state.gifs}/>

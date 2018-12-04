@@ -1,28 +1,50 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
 import './App.css';
+import { connect } from 'react-redux';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+import Actions from './Actions';
+
+
+const createMarkup = (rawInfo = null) => {
+  return {
+    __html: rawInfo,
   }
-}
+};
 
-export default App;
+const App = ({ cards, searchTerm, searchTermChanged }) => (
+        <Fragment>
+          <input
+            type='text'
+            name='search'
+            placeholder='Search Card Names'
+            value={searchTerm}
+            onChange={e => searchTermChanged(e.target.value)}
+          />
+          <table border='1'>
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Flavor</td>
+              </tr>
+            </thead>
+
+            <tbody>
+            {
+              cards.map((card) => {
+                if (card.flavor){
+                    return (
+                        <tr key={card.id}>
+                            <td>{card.name}</td>
+                            <td dangerouslySetInnerHTML={createMarkup(card.flavor)}></td>
+                        </tr>
+                    )
+                } else return null;
+
+              })
+            }
+            </tbody>
+          </table>
+        </Fragment>
+);
+
+export default connect(store => store, Actions)(App);
