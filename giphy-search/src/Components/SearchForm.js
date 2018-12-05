@@ -41,6 +41,7 @@ export default class SearchForm extends Component {
                     ref="query"
                     placeholder='search gifs...'
                 />
+
                 <input
                     type='input'
                     name='limit'
@@ -48,6 +49,16 @@ export default class SearchForm extends Component {
                     ref="limit"
                     placeholder='How many gifs?'
                 />
+
+                {/*<input*/}
+                {/*type='range'*/}
+                {/*name='limit'*/}
+                {/*min='1'*/}
+                {/*max='100'*/}
+                {/*onChange={this.onLimitChange}*/}
+                {/*ref="limit"*/}
+                {/*/>*/}
+
                 <button>Go</button>
             </form>
         );

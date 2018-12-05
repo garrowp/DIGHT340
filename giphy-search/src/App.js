@@ -6,70 +6,90 @@ import SearchForm from './Components/SearchForm';
 
 class App extends Component {
 
-  constructor(){
-    super();
+    constructor() {
+        super();
 
-    this.state = {
-        gifs: [],
-        loading: true,
-        query: '',
+        this.state = {
+            gifs: [],
+            loading: true,
+            query: '',
+        };
+
+    }
+
+    componentDidMount() {
+        this.getTrending();
     };
 
-  }
+    getTrending = async () => {
+        try {
+            const response = await axios.get('https://api.giphy.com/v1/gifs/trending?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&limit=2');
+            const {data} = await response.data;
 
-  componentDidMount() {
-         this.getTrending();
-  };
+            this.setState({
+                gifs: data,
+                loading: false,
+            })
 
-  getTrending = async () => {
-      try{
-          const response = await axios.get('https://api.giphy.com/v1/gifs/trending?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&limit=25');
-          const { data } = await response.data;
+        } catch (error) {
+            console.error(error);
+        }
 
-          this.setState({
-              gifs: data,
-              loading: false,
-          })
-      } catch(error) {
-          console.error(error);
-      }
+    };
 
-  };
+    getRandom = async () => {
+        try {
+            const response = await axios.get('https://api.giphy.com/v1/gifs/random?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP');
+            const {data} = await response.data;
 
-  performSearch = async (query = 'retriever', limit = 25) => {
+            this.setState({
+                gifs: [data],
+                loading: false,
+            });
 
-      try {
-          const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&q=${query}&limit=${limit}`);
-          const { data } = await response.data;
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
-          console.log(response.data);
-          this.setState({
-              gifs: data,
-              loading: false,
-          })
+    performSearch = async (query = 'retriever', limit = 25) => {
 
-      } catch(error) {
-          console.error(error);
-      }
-  };
+        try {
+            const response = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&q=${query}&limit=${limit}`);
+            const {data} = await response.data;
 
-  handleSearch = (event) => {
-      if(event.target.value === '') return this.getTrending();
+            this.setState({
+                gifs: data,
+                loading: false,
+            })
+
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
+    handleSearch = (event) => {
+        if (event.target.value === '') return this.getTrending();
         return this.performSearch(event.target.value);
-  };
+    };
 
 
-  render() {
-    return (
-      <Fragment>
-          <SearchForm performSearch={this.performSearch} getTrending={this.getTrending}/>
-          {
-              (this.state.loading)
-              ? <p className="loading">&hellip;loading&hellip;</p> : <Results data={this.state.gifs}/>
-          }
-      </Fragment>
-    );
-  }
+    render() {
+        return (
+            <Fragment>
+                <SearchForm performSearch={this.performSearch} getTrending={this.getTrending}/>
+                <button onClick={this.getTrending}>Get Trending</button>
+                <button onClick={this.getRandom}>Get Random</button>
+                {
+                    (this.state.loading)
+                        ? <p className="loading">&hellip;loading&hellip;</p> : <Results data={this.state.gifs}/>
+                }
+
+            </Fragment>
+        );
+    }
+
 }
+
 
 export default App;
