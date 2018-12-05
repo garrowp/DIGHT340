@@ -32,8 +32,8 @@ export default class SearchForm extends Component {
 
     render() {
         return (
-            <form className='search-form' onSubmit={this.handleSubmit}>
-                <label htmlFor="gif-search">Search Giphy</label>
+            <form style={{textAlign: 'center', marginTop: '10vh', marginBottom: '5vh'}} className='search-form' onSubmit={this.handleSubmit}>
+                <label htmlFor="gif-search" style={{color: 'red', fontWeight: '900'}}>Search Giphy </label>
                 <input
                     type='search'
                     name='gif-search'

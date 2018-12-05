@@ -23,9 +23,10 @@ class App extends Component {
 
     getTrending = async () => {
         try {
-            const response = await axios.get('https://api.giphy.com/v1/gifs/trending?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&limit=2');
+            const response = await axios.get('https://api.giphy.com/v1/gifs/trending?api_key=K1nJukPoyRlKOGE9AWqOO1mh8LEBrjlP&limit=25');
             const {data} = await response.data;
 
+            console.log(data);
             this.setState({
                 gifs: data,
                 loading: false,
@@ -78,8 +79,11 @@ class App extends Component {
         return (
             <Fragment>
                 <SearchForm performSearch={this.performSearch} getTrending={this.getTrending}/>
-                <button onClick={this.getTrending}>Get Trending</button>
-                <button onClick={this.getRandom}>Get Random</button>
+                <div style={{textAlign: 'center', marginBottom: '5vh'}}>
+                    <button onClick={this.getTrending}>Get Trending</button>
+                    <button onClick={this.getRandom}>Get Random</button>
+                </div>
+
                 {
                     (this.state.loading)
                         ? <p className="loading">&hellip;loading&hellip;</p> : <Results data={this.state.gifs}/>
