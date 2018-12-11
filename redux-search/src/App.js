@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
+import { Table } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Actions from './Actions';
 
@@ -20,7 +23,7 @@ const App = ({ cards, searchTerm, searchTermChanged }) => (
             value={searchTerm}
             onChange={e => searchTermChanged(e.target.value)}
           />
-          <table border='1'>
+          <Table striped>
             <thead>
               <tr>
                 <td>Name</td>
@@ -43,7 +46,7 @@ const App = ({ cards, searchTerm, searchTermChanged }) => (
               })
             }
             </tbody>
-          </table>
+          </Table>
         </Fragment>
 );
 
