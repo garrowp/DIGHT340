@@ -2,6 +2,7 @@
   "name": "context-search",
   "version": "0.1.0",
   "private": true,
+  "homepage":".",
   "dependencies": {
     "@material-ui/core": "^3.6.2",
     "react": "^16.6.3",
