@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Home",
+    "link": "/shorts/final/"
+  },
+  {
+    "text": "Dogs",
+    "link": "/shorts/final/dogs"
+  },
+  {
+    "text": "Sports",
+    "link": "/shorts/final/sports"
+  },
+  {
+    "text": "Music",
+    "link": "/shorts/final/music"
+  },
+  {
+    "text": "Places to Visit",
+    "link": "/shorts/final/places-to-visit"
+  }
+]

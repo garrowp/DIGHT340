@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Home",
+    "link": "/"
+  },
+  {
+    "text": "Dogs",
+    "link": "/dogs"
+  },
+  {
+    "text": "Sports",
+    "link": "/sports"
+  },
+  {
+    "text": "Famous Texans",
+    "link": "/famous-texas"
+  },
+  {
+    "text": "Lakes",
+    "link": "/lakes"
+  }
+]
